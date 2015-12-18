@@ -1,3 +1,46 @@
-body {
+html {
     background: #beceda;
+}
+body {
+    width: 1365px;
+    font-size: 16px;
+}
+.rectangle-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.image-flat-1 {
+    width: 66.593%;
+}
+.txt-content-1 {
+    width: 33.593%;
+    display:flex;
+    justify-content: center;
+    
+}
+.kernel {
+    width: 70%;
+}
+.dropdown {
+    margin-bottom: 77px;
+}
+.caption {
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+.reclam {
+    display:flex;
+    padding-top: 70px;
+    justify-content: center;
+    width: 44.908%;
+    background-image: url(images/Rectangle2.jpg);
+    color: white;
+}
+.section {
+    margin-bottom: 80px;
+}
+.caption-2 {
+    font-size: 40px;
+  margin-bottom: 45px;
 }
