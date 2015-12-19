@@ -1,3 +1,6 @@
+.main {
+    width: 1365px;
+}
 html {
     background: #beceda;
 }
@@ -33,9 +36,10 @@ body {
     display:flex;
     padding-top: 70px;
     justify-content: center;
-    width: 44.908%;
+    width: 1070px;
     background-image: url(images/Rectangle2.jpg);
     color: white;
+    border: 3px solid red;
 }
 .section {
     margin-bottom: 80px;
@@ -43,4 +47,60 @@ body {
 .caption-2 {
     font-size: 40px;
   margin-bottom: 45px;
+}
+.rectangle2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.twoBox {
+    display: flex;
+    flex-direction: column;
+}
+.inner_upBox {
+    width: 71.485%;
+    margin-left: 7.284%;
+}
+.upBox {
+    background-image:url(images/back_upBox.jpg);
+    padding-top: 80px;
+    padding-bottom: 70px;
+    font-size: 17px;
+}
+.head_twoBox {
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.link_upBox {
+    display: block;
+    border: 1px solid #262f32;
+    padding: 20px 40px;
+    margin-top: 60px;
+    width: 210px;
+    border-radius: 10px;
+}
+.link_upBox a {
+    text-decoration: none;
+}
+.downBox {
+    padding-top: 75px;
+    background: url(images/back_downBox.jpg);
+    color: white;
+}
+.h2_downBox {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.p_downBox {
+    margin-bottom: 50px;
+}
+.link_downBox {
+    display: block;
+    border: 1px solid white;
+    padding: 20px 40px;
+    margin-top: 60px;
+    width: 210px;
+    border-radius: 10px;
+    margin-bottom: 70px;
 }
