@@ -39,14 +39,16 @@ body {
     width: 1070px;
     background-image: url(images/Rectangle2.jpg);
     color: white;
-    border: 3px solid red;
 }
 .section {
     margin-bottom: 80px;
 }
+.section:last-child {
+    margin-bottom: -20px;
+}
 .caption-2 {
     font-size: 40px;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
 }
 .rectangle2 {
     display: flex;
@@ -63,7 +65,7 @@ body {
 }
 .upBox {
     background-image:url(images/back_upBox.jpg);
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 70px;
     font-size: 17px;
 }
@@ -83,7 +85,7 @@ body {
     text-decoration: none;
 }
 .downBox {
-    padding-top: 75px;
+    padding-top: 40px;
     background: url(images/back_downBox.jpg);
     color: white;
 }
