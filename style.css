@@ -8,7 +8,7 @@ body {
     width: 1365px;
     font-size: 16px;
 }
-.rectangle-1 {
+.rectangle {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -54,6 +54,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
+    border: 3px solid red;
 }
 .twoBox {
     display: flex;
@@ -105,4 +106,47 @@ body {
     width: 210px;
     border-radius: 10px;
     margin-bottom: 70px;
+}
+.left-box {
+    display: flex;
+    width: 33.553%;
+    flex-direction: column;
+    padding: 80px 70px 45px 50px;
+    background: #beceda;
+    background-image: url(images/back_leftBox.jpg);
+}
+.right-box {
+    width: 66.447%;
+    background-image: url(images/back_rightBox.jpg);
+    padding: 80px 50px;
+}
+.h1_left_box {
+    display: block;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 260px;
+}
+.simple_text {
+    color: white;
+    font-size: 20px;
+}
+.aftor {
+    font-size: 40px;
+    color: white;
+}
+.margin_bottom_60 {
+    margin-bottom: 60px;
+}
+.full_name {
+    display: flex;
+    width: 100%;
+}   
+.item {
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding-top : 23px;
+    padding-bottom: 23px;
+    padding-left: 25px;
+    color: white;
 }
