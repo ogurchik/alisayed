@@ -119,6 +119,8 @@ body {
     width: 66.447%;
     background-image: url(images/back_rightBox.jpg);
     padding: 80px 50px;
+    font-size: 22px;
+    color: white;
 }
 .h1_left_box {
     display: block;
@@ -149,4 +151,51 @@ body {
     padding-bottom: 23px;
     padding-left: 25px;
     color: white;
+}
+.item:nth-of-type(2) {
+    margin-left: 12px;
+}
+.message {
+    width: 612px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding-top: 22px;
+    padding-left : 32px;
+    padding-right: 32px;
+    padding-bottom: 125px;
+    color: white;
+    margin-top:15px; 
+    margin-bottom: 45px;
+}
+.social {
+}
+.raunded_sqear {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
+.face {
+    background: #345bb4 ;
+    background-image: url(images/facebook.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.twit {
+    background: #00b4ff;
+    background-image: url(images/twit.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+}
+.derrible {
+    background: #e64895;
+    background-image: url(images/derrible.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+}
+.social {
+    display: flex;
+    margin-bottom: 30px;
+
 }
